@@ -127,7 +127,7 @@ function App() {
                   <h2 className="text-xs sm:text-sm font-semibold text-cyan-300 mb-1.5 sm:mb-2 tracking-wider">
                     SHA-512 HASH:
                   </h2>
-                  <p className="text-xs sm:text-sm text-cyan-100 break-all font-['Share_Tech_Mono'] relative">
+                  <p className="text-base sm:text-3xl  text-cyan-100 break-all font-['Share_Tech_Mono'] relative">
                     {displayedResult}
                     {isTyping && (
                       <span className="absolute ml-1 -mt-0.5 w-1.5 sm:w-2 h-3 sm:h-4 bg-cyan-400 
